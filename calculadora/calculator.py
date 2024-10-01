@@ -9,7 +9,7 @@ class calculadora:
         self.value = a - b
 
     def multiplicar(self, a, b):
-        self.value = a - b
+        self.value = a * b
 
     def dividir(self, a, b):
         self.value = a / b

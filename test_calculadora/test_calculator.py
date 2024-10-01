@@ -1,6 +1,10 @@
 import unittest
 import math
 from calculadora.calculator import calculadora
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
+
 
 class TestCalculator(unittest.TestCase):
     def __init__(self, *args, **kwargs):
