@@ -10,20 +10,20 @@ Primero, vamos a crear un archivo llamado myfactorial.py, en el que definiremos 
 
 Código en myfactorial.py:
 
-´´´
+```python
 def factorial(numero):
     return 0
-´´´
+
 
 Código en test_.py:
 
-´´´
+```python
 import pytest
 import myfactorial
 
 def test_myfactorial():
     assert myfactorial.factorial(3) == 6
-´´´
+
 Paso 2: Ejecutar la Prueba Inicial
 Una vez que tengamos estos archivos, abrimos una terminal en el directorio donde están ubicados y ejecutamos el siguiente comando para correr las pruebas:
 
